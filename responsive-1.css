@@ -1,0 +1,117 @@
+html{
+    font-size: 8px;
+}
+.main-container{
+    overflow-x: hidden;
+}
+.header{
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+}
+.nav-menu img{
+    display: block;
+    cursor: pointer;
+}
+.header .logo{
+    width: 200px;
+    height: 140px;
+    margin: 0px;
+    padding: 0px;
+    /* border:2px solid green; */
+    justify-self: right;
+}
+.close-icon{
+    display: block;
+    position: relative;
+}
+.close-icon img{
+    width: 50%;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+.menus{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    width: 30%;
+    height: 103vh;
+    padding: 0px 15px;
+    justify-content: space-around;
+    background-color: #F4B400;
+    border-radius: 5px;
+    z-index: 1
+}
+.container-2{
+    margin:10px 0px;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+}
+.col-1{
+    margin: 20px 0px;
+    /* border: 2px solid green; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    box-shadow: 5px 5px 15px black;
+    background-image:url(images/pexels-ilya-alexeeff-5735845.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.col-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 70vh;
+    margin: 30px 0px 0px 0px 0px;
+}
+.row-1,.row-2{ 
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: ; */
+    font-size: 2rem;
+    transform-style: preserve-3d;
+    transition: 1s ease-out;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+}
+.container-3{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.service{
+    padding: 10px 20px 30px 20px;
+    width: 45%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    margin: 10px 0px;
+}

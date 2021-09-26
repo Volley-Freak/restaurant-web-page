@@ -1,0 +1,58 @@
+
+.header .logo{
+    position: absolute;
+    height: 110px;
+    top: 0;
+    right: 0;
+}
+.header .logo img {
+    width: 70%;
+}
+.container-2{
+    height: 100vh;
+}
+.second{
+    margin-top: -40px;
+}
+.col-1{
+    height: 70vh;
+    width: 90%;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+}
+.service{
+    width: 80%;
+    height: 30vh;
+}
+.service-title{
+    margin-top: -30px;
+}
+.service-description{
+    font-size: 2rem;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.col-4-1 img{
+    width: 40%;
+}
+.col-4-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.col-4-2 .description{
+    margin: 20px 20px 30px 20px;
+}
+.gallery-container{
+    width: 85%;
+    height: 40vh;
+}
